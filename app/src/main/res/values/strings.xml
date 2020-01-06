@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Outfit</string>
+    <string name="casual">Casual</string>
+    <string name="dating">Dating</string>
+    <string name="formal">Formal</string>
+    <string name="dinner">Dinner</string>
+    <string name="casualLongDesc">Long Skirt</string>
+    <string name="casualShortDesc">Short Skirt</string>
+</resources>
