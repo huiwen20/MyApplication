@@ -6,4 +6,15 @@
     <string name="dinner">Dinner</string>
     <string name="casualLongDesc">Long Skirt</string>
     <string name="casualShortDesc">Short Skirt</string>
+    <string name="casualDesc">The OOTD of youngs.\n
+    Please scroll left to view more casual outfit...</string>
+    <string name="datingDesc">The OOTD of youngs.\n
+    Please scroll left to view more dating outfit...</string>
+    <string name="dinnerDesc">The OOTD of youngs.\n
+    Please scroll left to view more dinner outfit...</string>
+    <string name="formalDesc">The OOTD of youngs.\n
+    Please scroll left to view more formal outfit...</string>
+
+
+
 </resources>

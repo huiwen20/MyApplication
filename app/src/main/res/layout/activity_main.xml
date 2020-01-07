@@ -67,10 +67,11 @@
     <Button
         android:id="@+id/buttonCasual"
         style="@android:style/Widget.Holo.Light.Button.Toggle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/casual"
+        android:typeface="serif"
         app:layout_constraintEnd_toEndOf="@+id/imageViewCasualCat"
         app:layout_constraintStart_toStartOf="@+id/imageViewCasualCat"
         app:layout_constraintTop_toBottomOf="@+id/imageViewCasualCat" />
@@ -78,10 +79,11 @@
     <Button
         android:id="@+id/buttonDating"
         style="@android:style/Widget.Holo.Light.Button.Toggle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/dating"
+        android:typeface="serif"
         app:layout_constraintEnd_toEndOf="@+id/imageViewDatingCat"
         app:layout_constraintStart_toStartOf="@+id/imageViewDatingCat"
         app:layout_constraintTop_toBottomOf="@+id/imageViewDatingCat" />
@@ -89,10 +91,11 @@
     <Button
         android:id="@+id/buttonFormal"
         style="@android:style/Widget.Holo.Light.Button.Toggle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/formal"
+        android:typeface="serif"
         app:layout_constraintEnd_toEndOf="@+id/imageViewFormalCat"
         app:layout_constraintStart_toStartOf="@+id/imageViewFormalCat"
         app:layout_constraintTop_toBottomOf="@+id/imageViewFormalCat" />
@@ -100,10 +103,11 @@
     <Button
         android:id="@+id/buttonDinner"
         style="@android:style/Widget.Holo.Light.Button.Toggle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/dinner"
+        android:typeface="serif"
         app:layout_constraintEnd_toEndOf="@+id/imageViewDinnerCat"
         app:layout_constraintStart_toStartOf="@+id/imageViewDinnerCat"
         app:layout_constraintTop_toBottomOf="@+id/imageViewDinnerCat" />

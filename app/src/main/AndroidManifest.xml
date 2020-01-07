@@ -9,13 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".CasualActivity" />
+        <activity android:name=".DatingActivity" />
+        <activity android:name=".DinnerActivity" />
+        <activity android:name=".FormalActivity" />
+        <activity android:name=".CasualDetailsActivity" />
+        <activity android:name=".DatingDetailsActivity" />
+        <activity android:name=".DinnerDetailsActivity" />
+        <activity android:name=".FormalDetailsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>

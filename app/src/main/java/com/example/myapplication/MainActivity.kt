@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         buttonCasual.setOnClickListener {
             val intent = Intent(this, CasualActivity::class.java)
             startActivity(intent)
@@ -33,43 +34,48 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // get reference to ImageView
-        val ivClickCasualCat = findViewById(R.id.imageViewCasualCat) as ImageView
-        // set on-click listener
-        ivClickCasualCat.setOnClickListener {
+
+
+
+        imageViewCasualCat.setOnClickListener {
             // your code to perform when the user clicks on the ImageView
             Toast.makeText(this@MainActivity, "You clicked on Casual Image.", Toast.LENGTH_SHORT)
                 .show()
 
+            val intent = Intent(this, CasualDetailsActivity::class.java)
+            startActivity(intent)
         }
 
-        // get reference to ImageView
-        val ivClickDatingCat = findViewById(R.id.imageViewDatingCat) as ImageView
-        // set on-click listener
-        ivClickDatingCat.setOnClickListener {
+
+        imageViewDatingCat.setOnClickListener {
             // your code to perform when the user clicks on the ImageView
             Toast.makeText(this@MainActivity, "You clicked on Dating Image.", Toast.LENGTH_SHORT)
                 .show()
 
+            val intent = Intent(this, DatingDetailsActivity::class.java)
+            startActivity(intent)
+
         }
 
-        // get reference to ImageView
-        val ivClickFormalCat = findViewById(R.id.imageViewFormalCat) as ImageView
-        // set on-click listener
-        ivClickFormalCat.setOnClickListener {
+
+        imageViewFormalCat.setOnClickListener {
             // your code to perform when the user clicks on the ImageView
             Toast.makeText(this@MainActivity, "You clicked on Formal Image.", Toast.LENGTH_SHORT)
                 .show()
 
+            val intent = Intent(this, FormalDetailsActivity::class.java)
+            startActivity(intent)
+
         }
 
-        // get reference to ImageView
-        val ivClickDinnerCat = findViewById(R.id.imageViewDinnerCat) as ImageView
-        // set on-click listener
-        ivClickDinnerCat.setOnClickListener {
+
+        imageViewDinnerCat.setOnClickListener {
             // your code to perform when the user clicks on the ImageView
             Toast.makeText(this@MainActivity, "You clicked on Dinner Image.", Toast.LENGTH_SHORT)
                 .show()
+
+            val intent = Intent(this, DinnerDetailsActivity::class.java)
+            startActivity(intent)
 
         }
         
